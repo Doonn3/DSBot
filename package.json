@@ -1,0 +1,25 @@
+{
+  "name": "new-bot",
+  "version": "0.1.0",
+  "description": "New Bot",
+  "main": "./app/app.js",
+  "scripts": {
+    "server": "node ./app/app.js",
+    "dev": "nodemon ./app/app.js"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "discord",
+    "node.js",
+    "nodemon"
+  ],
+  "author": "Nikolay <Doonn3@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
